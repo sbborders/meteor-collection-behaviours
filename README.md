@@ -1,4 +1,4 @@
-[![License]](https://github.com/sbborders/meteor-collection-behaviours/blob/master/LICENSE.md)
+[License](https://github.com/sbborders/meteor-collection-behaviours/blob/master/LICENSE.md)
 
 # Behaviours for collections
 
@@ -25,7 +25,7 @@ The behaviours are split into separate packages, which depend on this package.
   https://atmospherejs.com/sbborders/collection-softremovable
 
 
-*  (STILL NOT UPDATED) `zimme:collection-timestampable`
+* (STILL NOT UPDATED) `zimme:collection-timestampable`
 
   This behaviour timestamps documents on insert and update. It also tracks the
   user who made the last insert or update.
