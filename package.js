@@ -1,22 +1,21 @@
 Package.describe({
-  git: 'https://github.com/zimme/meteor-collection-behaviours.git',
-  name: 'zimme:collection-behaviours',
+  git: 'https://github.com/sbborders/meteor-collection-behaviours.git',
+  name: 'sbborders:collection-behaviours',
   summary: 'Define and attach behaviours to collections',
-  version: '1.1.3'
+  version: '2.0.0'
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom('1.0');
+Package.onUse(function (api) {
+  api.versionsFrom('2.8.0');
 
   api.use([
     'check',
-    'coffeescript',
     'mongo'
   ]);
 
   api.addFiles([
-    'lib/behaviours.coffee',
-    'lib/mongo.coffee'
+    'lib/behaviours.js',
+    'lib/mongo.js'
   ]);
 
   api.export('CollectionBehaviours');

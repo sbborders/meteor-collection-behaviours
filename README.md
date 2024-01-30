@@ -1,31 +1,31 @@
-[![Gitter]](https://gitter.im/zimme/meteor-collection-behaviours)
-[![Code Climate]](https://codeclimate.com/github/zimme/meteor-collection-behaviours)
-[![License]](https://github.com/zimme/meteor-collection-timestampable/blob/master/LICENSE.md)
+[License](https://github.com/sbborders/meteor-collection-behaviours/blob/master/LICENSE.md)
 
 # Behaviours for collections
 
 Define and attach behaviours to collections.
 
+__This package is a fork from [zimme:collection-behaviours](https://github.com/zimme/meteor-collection-behaviours) Meteor package that convert the old code in CoffeeScript to JavaScript to support new Meteor API's.__
+
 ## Installation
 
 ```sh
-meteor add zimme:collection-behaviours
+meteor add sbborders:collection-behaviours
 ```
 
 ## Available behaviours
 
 The behaviours are split into separate packages, which depend on this package.
 
-* `zimme:collection-softremovable`
+* `sbborders:collection-softremovable`
 
   This behaviour adds `.softRemove()` and `.restore()` to collections, which
   make it possible to mark documents as removed. It also tracks the time and
   user for the last soft remove and restore.
 
-  https://atmospherejs.com/zimme/collection-softremovable
+  https://atmospherejs.com/sbborders/collection-softremovable
 
 
-* `zimme:collection-timestampable`
+* (STILL NOT UPDATED) `zimme:collection-timestampable`
 
   This behaviour timestamps documents on insert and update. It also tracks the
   user who made the last insert or update.
@@ -196,7 +196,3 @@ CollectionBehaviours.attach(ColletionIdentifier, behaviourNameOrFunction, option
 [`sewdn:collection-behaviours`][sewdn]
 
 [Atmosphere]: https://atmospherejs.com
-[Code Climate]: https://img.shields.io/codeclimate/github/zimme/meteor-collection-behaviours.svg
-[Gitter]: https://img.shields.io/badge/gitter-join_chat-brightgreen.svg
-[License]: https://img.shields.io/badge/license-MIT-blue.svg
-[sewdn]: https://github.com/Sewdn/meteor-collection-behaviours
