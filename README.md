@@ -192,7 +192,6 @@ CollectionBehaviours.attach(ColletionIdentifier, behaviourNameOrFunction, option
 ## Notes
 
 * `CollectionBehaviours.config` is an alias for `CollectionBehaviours.configure`
-* The inspiration for this package came from
-[`sewdn:collection-behaviours`][sewdn]
+* The inspiration for this package came from [sewdn:collection-behaviours](https://github.com/Sewdn/meteor-collection-behaviours/)
 
 [Atmosphere]: https://atmospherejs.com
